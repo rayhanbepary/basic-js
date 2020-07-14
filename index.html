@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+		
+	<form>
+		<span>Convert inch to feet</span>
+		<input type="number"  id="conve" onchange="converter(conve.value)" oninput="converter(conve.value)" >
+	</form>
+	<p>Feet:<span id="output"></span></p>							
+				
+	<span>Leap year</span>
+	<input type="number"  id="leap">
+	<input type="submit"  value="check" onclick="leapp(leap.value)" >
+	<p>Input year:<span id="leapOutput"></span></p>		
+					
+				
+	<span>Factorial of number: </span>
+	<input type="number"  id="num">
+	<input type="submit"  value="check" onclick="factorial(num.value)" >	
+	<p>Ans:<span id="factOutput"></span></p>
+	
+	<span>Fibonacci: </span>
+	<input type="number"  id="fib">
+	<input type="submit"  value="check" onclick="fibonacci(fib.value)" >	
+	<p>Ans:<span id="fiboOutput"></span></p>
+		
+	<span>Prime number: </span>
+	<input type="number"  id="prim">
+	<input type="submit"  value="check" onclick="prime(prim.value)" >	
+	<p>Ans:<span id="primeOutput"></span></p>
+		
+		
+		
+		
+		
+		
+		
+		
+	
+    <script src="basic.js"></script>
+</body>
+</html>
